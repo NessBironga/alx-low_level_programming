@@ -1,15 +1,27 @@
 #include "main.h"
 
 /**
- * _abs - computes absolute value of integer
- * @n: the int in question
+ *main: _abs - print absolute value
  *
- * Return: the abs of the int.
+ *Definition:
+ *
+ *@n: interger
+ *
+ *Return: olute interger
  */
-int _abs(int n);
+
+int _abs(int n)
 {
-	if (n >= 0)
-		return (n);
-	else
+	if (n < 0)
+	{
 		return (-n);
+	}
+	else if (n > 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (n);
+	}
 }
