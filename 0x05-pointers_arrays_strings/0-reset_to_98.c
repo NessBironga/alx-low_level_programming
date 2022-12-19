@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - reset to 98
+ * main - reset to 98 - function that takes a pointer as a parameter and points it to 98
  *@n: input
  * Return: n
  */
